@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>KetApp Privacy Policy</title>
+<style>
+:root {
+  --ketterer-orange: #F1711A;
+  --ketterer-grey: #6B7581;
+  --paper: #ffffff;
+  --page-bg: #f4f5f6;
+  --text: #25292d;
+  --muted: #68717a;
+  --line: #d9dde1;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--page-bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.52;
+}
+.brand-header {
+  background: #fff;
+  border-bottom: 5px solid var(--ketterer-orange);
+}
+.brand-header-inner {
+  width: min(1080px, calc(100% - 28px));
+  margin: 0 auto;
+  padding: 20px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.brand-icon {
+  width: 92px;
+  height: 92px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+.brand-wordmark {
+  width: min(590px, 72vw);
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+.topbar {
+  background: var(--ketterer-grey);
+  border-bottom: 3px solid var(--ketterer-orange);
+}
+.topbar-inner, main, .footer-inner {
+  width: min(980px, calc(100% - 28px));
+  margin: 0 auto;
+}
+.topbar-inner {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 11px 0;
+}
+.lang-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid rgba(255,255,255,.7);
+  border-radius: 6px;
+  padding: 7px 13px;
+  transition: .15s ease;
+}
+.lang-link:hover,
+.lang-link:focus {
+  background: var(--ketterer-orange);
+  border-color: var(--ketterer-orange);
+}
+main { padding: 30px 0 50px; }
+article {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 6px solid var(--ketterer-orange);
+  border-radius: 10px;
+  padding: clamp(22px, 5vw, 52px);
+  margin-bottom: 28px;
+  box-shadow: 0 3px 14px rgba(67,75,83,.08);
+}
+h1 {
+  margin: 0 0 4px;
+  font-size: clamp(29px, 5vw, 42px);
+  line-height: 1.14;
+  color: var(--ketterer-grey);
+}
+.updated {
+  margin: 0 0 34px;
+  font-style: italic;
+  color: var(--muted);
+}
+h2, h3 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 14px;
+  align-items: baseline;
+  color: var(--ketterer-grey);
+}
+h2 {
+  font-size: 22px;
+  margin: 38px 0 13px;
+  border-bottom: 2px solid var(--ketterer-orange);
+  padding-bottom: 7px;
+}
+h3 {
+  font-size: 18px;
+  margin: 28px 0 10px;
+}
+.section-number {
+  min-width: 52px;
+  font-weight: 700;
+  text-align: right;
+  color: var(--ketterer-orange);
+}
+p { margin: 10px 0; }
+ul {
+  margin: 8px 0 16px 60px;
+  padding-left: 20px;
+}
+li { margin: 4px 0; }
+a {
+  color: var(--ketterer-orange);
+  text-underline-offset: 2px;
+}
+a:hover { color: var(--ketterer-grey); }
+.table-wrap {
+  overflow-x: auto;
+  margin: 16px 0 26px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+th, td {
+  border: 1px solid var(--line);
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: var(--ketterer-grey);
+  color: #fff;
+  text-align: center;
+  border-color: var(--ketterer-grey);
+}
+tr:nth-child(even) td { background: #f6f7f8; }
+footer {
+  background: var(--ketterer-grey);
+  color: #fff;
+  border-top: 4px solid var(--ketterer-orange);
+  padding: 18px 0;
+  text-align: center;
+  font-size: 13px;
+}
+.language-separator {
+  text-align: center;
+  color: var(--ketterer-orange);
+  margin: 10px 0 26px;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+@media (max-width: 700px) {
+  .brand-header-inner {
+    padding: 14px 0 12px;
+    gap: 16px;
+  }
+  .brand-icon {
+    width: 64px;
+    height: 64px;
+  }
+  .brand-wordmark {
+    width: min(570px, 72vw);
+  }
+  .topbar-inner {
+    justify-content: center;
+  }
+  article { padding: 22px 17px; }
+  h2, h3 {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+  .section-number {
+    min-width: 0;
+    text-align: left;
+  }
+  ul { margin-left: 12px; }
+  table { font-size: 13px; }
+  th, td { padding: 7px; }
+}
+</style>
+<link href="ketterer-icon.png" rel="icon" type="image/png"/></head>
+<body>
+<header class="brand-header"><div class="brand-header-inner"><img alt="Ketterer icon" class="brand-icon" src="ketterer-icon.png"/><img alt="Ketterer Antriebe" class="brand-wordmark" src="ketterer-antriebe-logo.png"/></div></header><nav aria-label="Language" class="topbar">
+<div class="topbar-inner">
+<a class="lang-link" href="#de">Deutsch</a>
+<a class="lang-link" href="#en">English</a>
+</div>
+</nav>
+<main>
+<article id="de" lang="de">
+<h1>Datenschutzerklärung – KetApp</h1>
+<p class="updated">Stand: 6. August 2026</p>
+<p>Diese Datenschutzerklärung erläutert, wie die KetApp Ihre Daten verarbeitet, wenn Sie die mobile Anwendung zur Steuerung eines Sonnenschirms mit dem elektromotorischen Antriebssystem von Ketterer nutzen.</p>
+<h2><span class="section-number">1</span><span>Verantwortlicher und Kontaktdaten</span></h2>
+<p>Verantwortlich für die Verarbeitung personenbezogener Daten im Zusammenhang mit der KetApp ist:</p>
+<p>B. Ketterer Söhne GmbH &amp; Co. KG</p>
+<p>Bahnhofstraße 20</p>
+<p>78120 Furtwangen</p>
+<p>Deutschland</p>
+<p>Telefon: +49 7723 6569-10</p>
+<p>E-Mail: info@ketterer.de</p>
+<h2><span class="section-number">2</span><span>Geltungsbereich und Grundprinzip der App</span></h2>
+<p>KetApp dient der lokalen Bedienung und Diagnose kompatibler elektrischer Sonnenschirme. Die App verarbeitet die für ihre Funktionen erforderlichen Daten grundsätzlich auf Ihrem Gerät. Soweit Daten ausschließlich lokal gespeichert oder verarbeitet werden und Ketterer keinen Zugriff darauf erhält, werden diese Daten nicht an Ketterer übermittelt.</p>
+<p>Eine automatische Übermittlung von Steuerungs-, Antriebs- oder Diagnosedaten an Ketterer findet nicht statt. Solche Daten werden nur übermittelt, wenn Sie selbst einen Diagnosebericht oder eine Supportanfrage erstellen und anschließend über eine von Ihnen gewählte Anwendung an Ketterer senden.</p>
+<p>Beim freiwilligen Aufruf von Online-Inhalten können technisch erforderliche Verbindungsdaten an den jeweiligen Webserver übertragen werden. Weitere Informationen hierzu finden Sie in Abschnitt 7.</p>
+<h2><span class="section-number">3</span><span>Funktionen der KetApp</span></h2>
+<p>Mit der KetApp können Sie ein kompatibles elektromotorisches Antriebssystem von Ketterer über ein Mobilgerät steuern. Je nach Konfiguration des Antriebssystems und Ihren Zugriffsrechten kann die KetApp Folgendes:</p>
+<ul>
+<li>Scannt und verbindet sich über BLE mit einem kompatiblen Antriebssystem;</li>
+<li>Sendet Befehle zum Öffnen, Schließen und Leerlaufen;</li>
+<li>Steuert die in der Endanwendung integrierte LED-Beleuchtung und deren Helligkeit;</li>
+<li>Empfängt Statusinformationen und Fehlercodes des Antriebssystems;</li>
+<li>Speichert antriebsspezifische Sicherheitsinformationen lokal;</li>
+<li>Stellt Installations-, Konfigurations- und Technikerfunktionen bereit;</li>
+<li>Erstellt lokale Analyseberichte, wenn der Benutzer Support anfordert.</li>
+<li>Zeigt Ketterer-Online-Inhalte an, wenn der Benutzer die Seite „Über uns“ öffnet.</li>
+<li>Verändert die Firmware des Antriebssystems nicht. Das Antriebssystem führt Befehle gemäß seiner eigenen Firmware und seinen Hardware-Sicherheitsfunktionen aus.</li>
+</ul>
+<h2><span class="section-number">4</span><span>Bluetooth- Kommunikation</span></h2>
+<p>Die KetApp nutzt ausschließlich Bluetooth Low Energy (BLE) zur lokalen Kommunikation mit dem Antriebssystem. Bluetooth wird verwendet, um:</p>
+<ul>
+<li>nach einem Antriebssystem zu suchen und eine Verbindung herzustellen;</li>
+<li>Steuerbefehle zu senden, z. B. für Öffnen, Schließen, Licht Ein/Aus, Licht dimmen;</li>
+<li>Statusmeldungen vom Antriebssystem zu empfangen, z. B. Motordrehzahl, Antriebs-Status und Fehlercodes.</li>
+</ul>
+<p>Die gesamte Bluetooth-Kommunikation findet lokal zwischen Ihrem Smartphone und dem Antriebssystem statt. Die Bluetooth-Daten werden nicht über das Internet geleitet und an keinen Server gesendet.</p>
+<h2><span class="section-number">5</span><span>Lokal auf Ihrem Gerät gespeicherte Daten</span></h2>
+<p>Die KetApp kann eine begrenzte Menge an Funktions- und Diagnosedaten im app-internen Speicherbereich Ihres Mobilgeräts speichern. Diese Daten dienen dem Betrieb der App, der Sicherheit des Antriebssystems und der lokalen Fehlerdiagnose.</p>
+<p>Unter Android können Sie lokal gespeicherte Daten über die App-Einstellungen des Betriebssystems löschen. Unter iOS können Sie die lokalen App-Daten durch vollständiges Löschen der App entfernen. Zusätzlich können Sie vorhandene Löschfunktionen innerhalb von KetApp verwenden. Exportierte Diagnoseberichte müssen Sie separat an dem von Ihnen gewählten Speicherort löschen.</p>
+<div class="table-wrap"><table>
+<tr>
+<th>Daten</th>
+<th>Zweck</th>
+<th>Übertragung?</th>
+</tr>
+<tr>
+<td>Identifikationsdaten</td>
+<td>Speichert Informationen zur Identifikation des Antriebssystems zum Zweck der Herstellung einer Verbindung.</td>
+<td>Nein</td>
+</tr>
+<tr>
+<td>Fehlerprotokollverlauf</td>
+<td>Speichert Informationen zu Fehlerereignisse wie Name des Mobilgeräts, Fehlercode und Zeitstempel. Hiermit können Techniker Probleme einfacher und schneller diagnostizieren.</td>
+<td>Nein</td>
+</tr>
+<tr>
+<td>Motorsicherheit / Abkühl-Timer</td>
+<td>Speichert Informationen zu Motorlaufzeit, Einsatzzeitpunkt und Abkühlphasen. Sie dienen dem Schutz des Antriebssystems vor Überhitzung.</td>
+<td>Nein</td>
+</tr>
+<tr>
+<td>Sprachpräferenz</td>
+<td>Speichert die vom Nutzer gewählte Sprache in der KetApp</td>
+<td>Nein</td>
+</tr>
+<tr>
+<td>Experten-Bereich</td>
+<td>Speichert den Zugriffsstatus der Experten-Sitzung.</td>
+<td>Nein</td>
+</tr>
+<tr>
+<td>Einträge im Support-Formular</td>
+<td>Speichert Name, Firma, Rechnungs-/Auftragsreferenz und Problembeschreibung , welche freiwillig für einen Analysebericht eingegeben werden können.</td>
+<td>Nein. Eine Übermittlung erfolgt nur, wenn Sie den erstellten Bericht selbst versenden.</td>
+</tr>
+<tr>
+<td>Analysebericht</td>
+<td>Speichert eine vom Benutzer erstellte PDF-datei des Analyseberichts am ausgewählten Speicherort, bis der Benutzer sie löscht.</td>
+<td>Nein. Eine Übermittlung erfolgt nur, wenn Sie den erstellten Bericht selbst versenden.</td>
+</tr>
+</table></div>
+<h2><span class="section-number">6</span><span>Optionale Supportberichte und Diagnose-PDFs</span></h2>
+<p>Die Funktion „Ketterer kontaktieren“ ist freiwillig. Bevor ein Analysebericht erstellt wird, gibt der Benutzer freiwillig seinen Namen, Firmennamen, Rechnungs-/Auftragsreferenzen und Problembeschreibungen ein und bestätigt aktiv die Diagnoseerfassung. Die KetApp liest anschließend die entsprechenden Daten aus dem Antriebssystem aus und erstellt einen lokalen Analysebericht im PDF-Format.</p>
+<p>Der Analysebericht kann die vom Benutzer eingegebenen Informationen sowie Seriennummern, aktuelle Statuswerte, Fehlerhistorie und Konfigurationswerte enthalten. Der Analysebericht wird nicht automatisch an Ketterer gesendet. Zum Download des Analyseberichts wählt der Benutzer den Speicherort und kann die Datei später manuell an eine E-Mail anhängen.</p>
+<p>Der Analysebericht kann passwortgeschützt sein. Dieser Passwortschutz stellt eine zusätzliche Zugriffsbarriere dar, ersetzt aber nicht die sorgfältige Aufbewahrung und sichere Übertragung. Benutzer sollten Analyseberichte nur an Ketterer senden und nicht mehr benötigte Kopien löschen.</p>
+<h3><span class="section-number">6.1</span><span>Verarbeitung nach einer manuellen Übermittlung an Ketterer</span></h3>
+<p>Wenn Sie einen Supportbericht oder eine Support-E-Mail an Ketterer senden, verarbeitet Ketterer die enthaltenen personenbezogenen und technischen Daten zur Bearbeitung Ihrer Anfrage, zur Fehleranalyse und zur Kommunikation mit Ihnen.</p>
+<p>Rechtsgrundlage ist Art. 6 Abs. 1 Buchst. b DSGVO, soweit die Verarbeitung zur Erfüllung eines Vertrags, zur Durchführung vorvertraglicher Maßnahmen oder zur Erbringung vertraglicher Supportleistungen erforderlich ist. In anderen Fällen beruht die Verarbeitung auf Art. 6 Abs. 1 Buchst. f DSGVO. Das berechtigte Interesse besteht in einer effizienten Bearbeitung von Supportanfragen und der technischen Fehlerbehebung.</p>
+<p>Die Nutzung der Supportfunktion ist freiwillig. Ohne eine ausreichende Problembeschreibung und die für die Zuordnung des betroffenen Antriebssystems erforderlichen technischen Angaben kann eine Bearbeitung möglicherweise nicht oder nur eingeschränkt erfolgen. Angaben zu Unternehmen, Rechnung oder Auftrag sind nur erforderlich, wenn sie für die Zuordnung des Supportfalls benötigt werden.</p>
+<p>Zugriff erhalten nur die mit der Bearbeitung betrauten Beschäftigten von Ketterer. Soweit für die technische Bereitstellung von E-Mail-, Hosting- oder IT-Diensten externe Dienstleister eingesetzt werden, können diese Daten im erforderlichen Umfang als Auftragsverarbeiter erhalten. KetApp selbst übermittelt keine Daten in Drittländer. Bei der von Ihnen veranlassten Nutzung externer E-Mail- oder Teilen-Dienste gelten zusätzlich die Datenschutzbestimmungen des von Ihnen gewählten Anbieters.</p>
+<p>Supportdaten werden gespeichert, solange dies für die Bearbeitung und Dokumentation des Supportfalls erforderlich ist. Anschließend werden sie gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten oder sonstigen rechtlich zulässigen Gründe für eine weitere Speicherung bestehen. In diesem Fall erfolgt die Löschung nach Wegfall dieser Gründe.</p>
+<h2><span class="section-number">7</span><span>Online-Inhalte und Internetnutzung</span></h2>
+<p>Die Kernfunktionen – Steuerung, Kommunikation mit dem Antriebssystem sowie Datenerfassung – arbeiten lokal über BLE und benötigen keine Internetverbindung. Der Internetzugang wird nur dann benötigt, wenn der Benutzer Online-Inhalte öffnet, beispielsweise die öffentliche Ketterer-Website über den Bereich „Über uns“.</p>
+<p>Beim Aufruf von Online-Inhalten kann die Website übliche technische Verbindungsinformationen wie die IP-Adresse des Mobilgeräts, die Zugriffszeit, Browser-/WebView-Informationen sowie die aufgerufene Seite empfangen. Die Datenverarbeitung auf der Website unterliegt der Datenschutzrichtlinie von Ketterer. Datenschutzerklärung der Ketterer-Website</p>
+<p>Die Ansteuerung des Antriebssystems erfolgt nicht über das Internet.</p>
+<p>App-Store-Anbieter können Informationen beim Herunterladen oder Aktualisieren der KetApp gemäß ihren eigenen Datenschutzrichtlinien unabhängig verarbeiten.</p>
+<h2><span class="section-number">8</span><span>Berechtigungen</span></h2>
+<h3><span class="section-number">8.1</span><span>Android-Berechtigungen</span></h3>
+<div class="table-wrap"><table>
+<tr>
+<th>Berechtigung</th>
+<th>Warum dies benötigt wird</th>
+</tr>
+<tr>
+<td>Bluetooth-Scan<br/>Bluetooth-Verbindung</td>
+<td>Erforderlich unter Android 12 und höher, um Bluetooth Low Energy-Geräte zu erkennen und mit ihnen zu kommunizieren.</td>
+</tr>
+<tr>
+<td>Bluetooth, Bluetooth_Admin</td>
+<td>Erforderlich unter Android 11 und älteren Versionen zur Nutzung der Bluetooth-Funktionalität.</td>
+</tr>
+<tr>
+<td>Access_Fine_Location<br/>Access_Coarse_Location</td>
+<td>Erforderlich unter Android 11 und älteren Versionen für die Bluetooth-Low-Energy-Suche.</td>
+</tr>
+<tr>
+<td>Internet</td>
+<td>Erforderlich für Online-Inhalte wie z.B. “Über uns“</td>
+</tr>
+</table></div>
+<h3><span class="section-number">8.2</span><span>iOS-Berechtigungen</span></h3>
+<div class="table-wrap"><table>
+<tr>
+<th>Berechtigung</th>
+<th>Warum dies benötigt wird</th>
+</tr>
+<tr>
+<td>NSBluetoothAlwaysUsageDescription</td>
+<td>Erforderlich um das Antriebssystem über Bluetooth zu erkennen, eine Verbindung herzustellen und Daten mit ihm auszutauschen.</td>
+</tr>
+<tr>
+<td>NSBluetoothPeripheralUsageDescription</td>
+<td>Erforderlich unter iOS 6 bis 12.5 für die Bluetooth-Kommunikation mit dem Antriebssystem.</td>
+</tr>
+</table></div>
+<h2><span class="section-number">9</span><span>Zugang für Experten/Techniker</span></h2>
+<p>Die KetApp verfügt über einen Expertenbereich. Dieser Bereich soll nur für Techniker zugänglich sein, aus diesem Grund ist der Bereich Zugangsbeschränkt:</p>
+<ul>
+<li>Die Zugangsbeschränkung wird über eine Schlüsseldatei realisiert – ein zugangsberechtigter Techniker kann eine verschlüsselte .bin-Datei (über die Systemdateiauswahl) importieren, welche in der KetApp entschlüsselt und validiert wird. Die Entschlüsselung und Validierung der Datei erfolgt ausschließlich lokal. Die Schlüsseldatei ist für den jeweiligen Kalendertag gültig.</li>
+</ul>
+<h2><span class="section-number">10</span><span>Daten, die KetApp nicht automatisch erfasst oder übermittelt</span></h2>
+<p>Die KetApp erfasst oder übermittelt die folgenden Informationen nicht automatisch an Ketterer oder an Anbieter von Analyse-, Werbe- oder Tracking-Dienstleistungen:</p>
+<ul>
+<li>GPS-Koordinaten oder Standorte</li>
+<li>Fotos, Kamerainhalte, Kontakte oder Mikrofonaufnahmen</li>
+<li>Werbe-IDs, Tracking-Profile oder Marketingdaten</li>
+<li>Nutzungsanalysen, Remote-Absturzberichte oder Telemetrie</li>
+<li>Weder Firebase, Crashlytics noch ein anderes Analyse-/Absturzberichterstattungs-SDK</li>
+<li>Zahlungsinformationen</li>
+<li>Passwörter (die KetApp verfügt über kein Konto- oder Anmeldesystem)</li>
+<li>Eine automatisierte Entscheidungsfindung einschließlich Profiling findet nicht statt.</li>
+</ul>
+<h2><span class="section-number">11</span><span>Nutzung durch Kinder</span></h2>
+<p>Die KetApp richtet sich an erwachsene Nutzer, Installateure und Servicetechniker und ist nicht speziell für Kinder bestimmt. Die App enthält kein Benutzerkonto und übermittelt lokal verarbeitete App-Daten nicht automatisch an Ketterer.</p>
+<h2><span class="section-number">12</span><span>Datensicherheit</span></h2>
+<p>Die KetApp wendet folgende Maßnahmen an, um Datenschutz- und Sicherheitsrisiken zu reduzieren:</p>
+<ul>
+<li>Funktionale Informationen werden primär privaten oder temporären Speicher abgelegt;</li>
+<li>Die KetApp lädt weder Antriebsdaten noch Analyseberichte automatisch hoch;</li>
+<li>Der Benutzer / Techniker muss bewusst eine Expert-Schlüsseldatei oder einen Speicherort auswählen;</li>
+<li>Die Erfassung von Diagnosedaten erfordert eine Bestätigung durch den Benutzer;</li>
+<li>Heruntergeladene Analyseberichte bleiben unter der Kontrolle des Nutzers;</li>
+<li>Die Release-Versionen werden über offizielle App-Store-Kanäle vertrieben und mithilfe der entsprechenden Plattformmechanismen signiert.</li>
+</ul>
+<p>Keine Sicherheitsmaßnahme bietet absoluten Schutz. Nutzer sollten ihr Mobilgerät mit einem Zugangscode schützen, Betriebssystem-Updates installieren, die KetApp nur von autorisierten Quellen beziehen und Analyseberichte löschen, sobald diese nicht mehr benötigt werden. </p>
+<h2><span class="section-number">13</span><span>Ihre Rechte</span></h2>
+<p>Soweit Ketterer personenbezogene Daten von Ihnen verarbeitet, haben Sie unter den gesetzlichen Voraussetzungen das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Sie können außerdem einer Verarbeitung widersprechen, die auf Art. 6 Abs. 1 Buchst. e oder f DSGVO beruht.</p>
+<p>Soweit eine Verarbeitung auf Ihrer Einwilligung beruht, können Sie diese Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt unberührt.</p>
+<p>Rechte in Bezug auf Daten, die ausschließlich lokal auf Ihrem Smartphone gespeichert sind und auf die Ketterer keinen Zugriff hat, üben Sie durch Löschen der App-Daten, Deinstallation der App oder Löschen der exportierten Dateien aus.</p>
+<p>Datenschutzanfragen richten Sie an datenschutz@ketterer.de. Unser Datenschutzbeauftragter ist bis einschließlich 31. Dezember 2026 unter dsb@ketterer.de erreichbar.</p>
+<h3><span class="section-number">13.1</span><span>Beschwerderecht</span></h3>
+<p>Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren. Zuständig für Ketterer ist grundsätzlich:</p>
+<p>Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg</p>
+<p>Heilbronner Straße 35</p>
+<p>70191 Stuttgart</p>
+<p>www.baden-wuerttemberg.datenschutz.de/beschwerde</p>
+<h2><span class="section-number">14</span><span>Änderungen dieser Datenschutzerklärung</span></h2>
+<p>Diese Datenschutzerklärung wird angepasst, wenn sich die Funktionen von KetApp, die eingesetzten technischen Komponenten oder die damit verbundenen Verarbeitungsvorgänge ändern. Den aktuellen Stand erkennen Sie am Datum am Anfang des Dokuments. Über wesentliche Änderungen informieren wir in geeigneter Form. Soweit gesetzlich erforderlich, wird vor einer neuen Verarbeitung eine Einwilligung eingeholt.</p>
+</article>
+<div class="language-separator">• • •</div>
+<article id="en" lang="en">
+<h1>Privacy Policy – KetApp</h1>
+<p>Last updated: August 6, 2026</p>
+<p>This Privacy Policy explains how KetApp processes your data when you use the mobile app to control an parasol equipped with Ketterer’s electric motor drive system.</p>
+<h2><span class="section-number">1</span><span>Contact Information</span></h2>
+<p>The responsible party for the processing of personal data in connection with the KetApp is:</p>
+<p>B. Ketterer Söhne GmbH &amp; Co. KG</p>
+<p>Bahnhofstraße 20</p>
+<p>78120 Furtwangen</p>
+<p>Germany</p>
+<p>Phone: +49 7723 6569-10</p>
+<p>Email: info@ketterer.de</p>
+<h2><span class="section-number">2</span><span>Scope and Basic Principle of the App</span></h2>
+<p>KetApp is used for local operation and diagnostics of compatible electric parasols. The app generally processes the data required for its functions on your device. To the extent that data is stored or processed exclusively locally and Ketterer does not have access to it, this data is not transmitted to Ketterer.</p>
+<p>Control, drive, or diagnostic data is not automatically transmitted to Ketterer. Such data is transmitted only if you create a diagnostic report or a support request yourself and then send it to Ketterer via an application of your choice.</p>
+<p>When you voluntarily access online content, technically necessary connection data may be transmitted to the respective web server. For more information on this, see Section 7.</p>
+<h2><span class="section-number">3</span><span>KetApp Features</span></h2>
+<p>With the KetApp, you can control a compatible Ketterer electric drive system using a mobile device. Depending on the drive system’s configuration and your access rights, the KetApp can do the following:</p>
+<ul>
+<li>Scan for and connect to a compatible drive system via BLE;</li>
+<li>Send commands to open, close, and run idle;</li>
+<li>Control the LED lighting integrated into the end application and adjust its brightness;</li>
+<li>Receive status information and error codes from the drive system;</li>
+<li>Store drive-specific safety information locally;</li>
+<li>Provide installation, configuration, and technician functions;</li>
+<li>Generates local analysis reports when the user requests support.</li>
+<li>Displays Ketterer online content when the user opens the “About Us” page.</li>
+<li>Does not modify the drive system’s firmware. The drive system executes commands in accordance with its own firmware and hardware safety functions.</li>
+</ul>
+<h2><span class="section-number">4</span><span>Bluetooth Communication</span></h2>
+<p>The KetApp uses only Bluetooth Low Energy (BLE) for local communication with the drive system. Bluetooth is used to:</p>
+<ul>
+<li>search for a drive system and establish a connection;</li>
+<li>send control commands, e.g., for opening, closing, turning lights on/off, and dimming lights;</li>
+<li>receive status messages from the drive system, e.g., motor speed, drive status, and error codes.</li>
+</ul>
+<p>All Bluetooth communication takes place locally between your smartphone and the drive system. The Bluetooth data is not routed via the Internet and is not sent to any server.</p>
+<h2><span class="section-number">5</span><span>Data stored locally on your device</span></h2>
+<p>The KetApp can store a limited amount of functional and diagnostic data in the app’s internal storage area on your mobile device. This data is used for app operation, drive system safety, and local error diagnosis.</p>
+<p>On Android, you can delete locally stored data via the operating system’s app settings. On iOS, you can remove local app data by completely deleting the app. Additionally, you can use the built-in deletion functions within KetApp. You must delete exported diagnostic reports separately from the storage location you selected.</p>
+<div class="table-wrap"><table>
+<tr>
+<th>Data</th>
+<th>Purpose</th>
+<th>Data transfer?</th>
+</tr>
+<tr>
+<td>Identification Information</td>
+<td>Stores information used to identify the drive system for the purpose of establishing a connection.</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Error Log History</td>
+<td>Stores information about error events, such as the name of the mobile device, the error code, and the timestamp. This allows technicians to diagnose problems more easily and quickly.</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Motor Safety / Cooling Timer</td>
+<td>Stores information on motor runtime, operating times, and cool-down periods. This information helps protect the drive system from overheating.</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Language Preference</td>
+<td>Saves the language selected by the user in KetApp.</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Experts' Section</td>
+<td>Saves the access status of the expert session.</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Entries in the Support Form</td>
+<td>Stores the name, company, invoice/order reference, and problem description, which can be entered on a voluntary basis for an analysis report.</td>
+<td>No. The report will only be sent if you send it yourself.</td>
+</tr>
+<tr>
+<td>Analysis Report</td>
+<td>Saves a user-generated PDF file of the analysis report to the selected location until the user deletes it.</td>
+<td>No. The report will only be sent if you send it yourself.</td>
+</tr>
+</table></div>
+<h2><span class="section-number">6</span><span>Optional support reports and diagnostic PDFs</span></h2>
+<p>The “Contact Ketterer” feature is voluntary. Before an analysis report is generated, the user voluntarily enters their name, company name, invoice/order references, and problem descriptions, and actively confirms the diagnostic data collection. KetApp then retrieves the relevant data from the drive system and generates a local analysis report in PDF format.</p>
+<p>The analysis report may contain the information entered by the user as well as serial numbers, current status values, error history, and configuration values. The analysis report is not automatically sent to Ketterer. To download the analysis report, the user selects a save location and can later manually attach the file to an email.</p>
+<p>The analysis report can be password-protected. This password protection provides an additional barrier to access but does not replace careful storage and secure transmission. Users should send analysis reports only to Ketterer and delete any copies that are no longer needed.</p>
+<h3><span class="section-number">6.1</span><span>Processing Following Manual Submission to Ketterer</span></h3>
+<p>If you send a support report or a support email to Ketterer, Ketterer processes the personal and technical data contained therein to handle your request, analyze errors, and communicate with you.</p>
+<p>The legal basis is Article 6(1)(b) of the GDPR, insofar as the processing is necessary for the performance of a contract, for the implementation of pre-contractual measures, or for the provision of contractual support services. In other cases, the processing is based on Article 6(1)(f) of the GDPR. The legitimate interest lies in the efficient handling of support requests and technical troubleshooting.</p>
+<p>Use of the support function is voluntary. Without a sufficient description of the problem and the technical details required to identify the relevant drive system, we may be unable to process your request or may only be able to do so to a limited extent. Information regarding your company, invoice, or order is only required if it is necessary to identify the support case.</p>
+<p>Only Ketterer employees responsible for processing the data have access to it. To the extent that external service providers are used for the technical provision of email, hosting, or IT services, these providers may receive such data to the extent necessary in their capacity as data processors. KetApp itself does not transfer any data to third countries. When you use external email or file-sharing services, the privacy policy of the provider you have selected also applies.</p>
+<p>Support data is stored for as long as necessary to process and document the support case. It is subsequently deleted unless there are statutory retention obligations or other legally permissible reasons for further storage. In such cases, the data will be deleted once these reasons no longer apply.</p>
+<h2><span class="section-number">7</span><span>Online Content and Internet Use</span></h2>
+<p>The core functions—control, communication with the drive system, and data collection—operate locally via BLE and do not require an internet connection. Internet access is only required when the user opens online content, such as the public Ketterer website via the “About Us” section.</p>
+<p>When accessing online content, the website may receive standard technical connection information such as the mobile device’s IP address, access time, browser / WebView information, and the page accessed. Data processing on the website is subject to Ketterer’s Privacy Policy.</p>
+<p>Ketterer Website Privacy Policy</p>
+<p>The drive system is not controlled via the Internet.</p>
+<p>App store providers may independently process information when the KetApp is downloaded or updated in accordance with their own privacy policies.</p>
+<h2><span class="section-number">8</span><span>Permissions</span></h2>
+<h3><span class="section-number">8.1</span><span>Android Permissions</span></h3>
+<div class="table-wrap"><table>
+<tr>
+<th>Permission</th>
+<th>Why This Is Required</th>
+</tr>
+<tr>
+<td>Bluetooth-Scan<br/>Bluetooth-Connection</td>
+<td>Required on Android 12 and later to detect and communicate with Bluetooth Low Energy devices.</td>
+</tr>
+<tr>
+<td>Bluetooth, Bluetooth_Admin</td>
+<td>Required on Android 11 and earlier versions to use Bluetooth functionality.</td>
+</tr>
+<tr>
+<td>Access_Fine_Location<br/>Access_Coarse_Location</td>
+<td>Required on Android 11 and earlier versions for Bluetooth Low Energy search.</td>
+</tr>
+<tr>
+<td>Internet</td>
+<td>Required for online content such as “About Us”</td>
+</tr>
+</table></div>
+<h3><span class="section-number">8.2</span><span>iOS Permissions</span></h3>
+<div class="table-wrap"><table>
+<tr>
+<th>Permission</th>
+<th>Why This Is Required</th>
+</tr>
+<tr>
+<td>NSBluetoothAlwaysUsageDescription</td>
+<td>Required to detect the drive system via Bluetooth, establish a connection, and exchange data with it.</td>
+</tr>
+<tr>
+<td>NSBluetoothPeripheralUsageDescription</td>
+<td>Required on iOS 6 through 12.5 for Bluetooth communication with the drive system.</td>
+</tr>
+</table></div>
+<h2><span class="section-number">9</span><span>Access for Experts/Technicians</span></h2>
+<p>KetApp features an expert section. This section is intended to be accessible only to technicians; for this reason, access to it is restricted:</p>
+<ul>
+<li>Access restriction is implemented using a key file—a technician with access authorization can import an encrypted .bin file (via the system file selection), which is decrypted and validated within KetApp. The file is decrypted and validated exclusively on the local system. The key file is valid for the respective calendar day.</li>
+</ul>
+<h2><span class="section-number">10</span><span>Data that KetApp does not automatically collect or transmit</span></h2>
+<p>The KetApp does not automatically collect or transmit the following information to Ketterer or to providers of analytics, advertising, or tracking services:</p>
+<ul>
+<li>GPS coordinates or locations</li>
+<li>Photos, camera content, contacts, or microphone recordings</li>
+<li>Advertising IDs, tracking profiles, or marketing data</li>
+<li>Usage analytics, remote crash reports, or telemetry</li>
+<li>Neither Firebase, Crashlytics, nor any other analytics/crash reporting SDK</li>
+<li>Payment information</li>
+<li>Passwords (KetApp does not have an account or login system)</li>
+<li>There is no automated decision-making, including profiling</li>
+</ul>
+<h2><span class="section-number">11</span><span>Use by Children</span></h2>
+<p>The KetApp is intended for adult users, installers, and service technicians and is not specifically designed for children. The app does not include a user account and does not automatically transmit locally processed app data to Ketterer.</p>
+<h2><span class="section-number">12</span><span>Data Security</span></h2>
+<p>KetApp implements the following measures to reduce data protection and security risks:</p>
+<ul>
+<li>Functional information is primarily stored in private or temporary storage;</li>
+<li>KetApp does not automatically upload drive data or analysis reports;</li>
+<li>The user/technician must explicitly select an Expert key file or a storage location;</li>
+<li>The collection of diagnostic data requires user confirmation;</li>
+<li>Downloaded analysis reports remain under the user’s control;</li>
+<li>Release versions are distributed through official app store channels and signed using the corresponding platform mechanisms.</li>
+</ul>
+<p>No security measure offers absolute protection. Users should protect their mobile device with a passcode, install operating system updates, obtain the KetApp only from authorized sources, and delete analysis reports as soon as they are no longer needed.</p>
+<h2><span class="section-number">13</span><span>Your Rights</span></h2>
+<p>To the extent that Ketterer processes your personal data, you have the right—subject to the statutory requirements—to access, rectify, erase, restrict processing, and data portability. You may also object to processing based on Article 6(1)(e) or (f) of the GDPR.</p>
+<p>To the extent that processing is based on your consent, you may withdraw this consent at any time with future effect. The lawfulness of the processing carried out prior to withdrawal remains unaffected.</p>
+<p>You may exercise your rights regarding data stored exclusively locally on your smartphone—to which Ketterer has no access—by deleting the app data, uninstalling the app, or deleting the exported files.</p>
+<p>Please direct any data protection inquiries to datenschutz@ketterer.de. Our Data Protection Officer can be reached at dsb@ketterer.de through December 31, 2026.</p>
+<h3><span class="section-number">13.1</span><span>Right to File a Complaint</span></h3>
+<p>You have the right to file a complaint with a data protection supervisory authority. The authority responsible for Ketterer is generally:</p>
+<p>The State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg</p>
+<p>Heilbronner Straße 35</p>
+<p>70191 Stuttgart</p>
+<p>www.baden-wuerttemberg.datenschutz.de/beschwerde</p>
+<h2><span class="section-number">14</span><span>Changes to This Privacy Policy</span></h2>
+<p>This Privacy Policy will be updated if there are changes to KetApp’s features, the technical components used, or the associated data processing operations. You can identify the current version by the date at the beginning of the document. We will notify you of any material changes in an appropriate manner. To the extent required by law, consent will be obtained prior to any new data processing.</p>
+</article>
+</main>
+<footer>
+<div class="footer-inner">© 2026 Ketterer. Alle Rechte vorbehalten.</div>
+</footer>
+</body>
+</html>
